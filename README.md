@@ -1,4 +1,4 @@
-# https://www.kaggle.com/code/haroonkhan0011/notebook512afd2509
+
 We can learn all about the image preprocessing such as, capture image &amp; video from your Laptop camera, Normalization ,resize and cropping of an image.
 
 
@@ -13,29 +13,36 @@ Image-Preprocessing
 </p>
 
  <h1><center><strong><font size=100px>Required Tools</font></strong></center></h1>
-We are using Jupyter notebook and python 3 for this tutorial. For practice this tutorial first you should install 'Anaconda' from google then install 'Jupyter notebook' in Anaconda platform. After the installation of notebook install important Numpy Library. This notebook is available on Kaggle. If you like this notebook Upvote :thumbsup: me on Kaggle. Click on the link for Download 'Anaconda'. https://www.anaconda.com/products/distribution#Downloads <br>
+We are using Jupyter notebook and python 3 for this tutorial. For practice this tutorial first you should install 'Anaconda' from google then install 'Jupyter notebook' in Anaconda platform. After the installation of notebook install important Numpy Library. This notebook is available on Kaggle. If you like this notebook Upvote :thumbsup: me on Kaggle . Click on the link for Download 'Anaconda'. https://www.anaconda.com/products/distribution#Downloads <br>
 
 - Anaconda
 - python 3
 - Numpy Library
+- Matplotlib
+- from IPython.display import Video
 
 <h1><center><strong><font size=90px>Introduction of Numpy</font></strong></center></h1>
-
-NumPy stands for 'Numerical Python’. It is an open-source Python library used to perform various mathematical and scientific tasks.It is very important Library for  concentrating on AI 'Artificial intelligence'. Many of its functions are very useful for performing any mathematical or scientific calculation.It's used to support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. As it is known that mathematics is the foundation of machine learning, most of the mathematical tasks can be performed using NumPy.
-
-
-<p align="center">
-    <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/07/Uses-of-NumPy-1.jpg" width="600">
-</p>
+The image processing is a technique of preparing (cleaning and organizing) the image to make it suitable for a building and training Machine Learning models.
+ In image processing converts the image data into a form that allows machine learning algorithms to solve it.
 
 <h1><center><strong><font size=90px>Learn Topics:</font></strong></center></h1>
  
-- What is NumPy Library and how to import NumPy Library.
-- Difference between One-Dimentional and Two-Dimentional Array.
-- How to access elements in NumPy.
-- Important attributes of NumPy.
-- Creating array having all elements Zero and One's
-- Basic Math with NumPy
-- Important Statistics Functions in NumPy
-- How to Split NumPy
+1. Capture 5 images and 1 video with the help of your Laptop's Camera using open-cv,
+save them in a folder, load and plot in a subplot in your notebook.
+2. Normalize any 1 image from the saved images in a folder between range of 0 - 1.
+3. Convert the pixels having values greater than 150 to white color and the values smaller
+than 150 to black color without using open-cv then plot and save.
+4. Do the 3rd task with the help of open-cv then plot and save.
+5. Create a 1D array of 10000 random values, convert it into a 2D array of 100x100 pixels
+having 3 channels (RGB) then plot and save.
+6. Using the image created in task 6, crop a 10x10 portion from the center then plot and
+save.
+7. Blur an image (with Gaussian Blur) using open-cv.
+8. In an image, add number 10 to each pixel value and don't add if the pixel value exceeds
+number 240 after adding then plot and save.
+9. In an image, subtract number 10 from each pixel value and don't subtract if the pixel
+value falls behind number 10 after subtraction then plot and save.
+10. Capture a picture of a ceiling bulb with your phone and make the bright area white and
+the rest of the area black then plot and save.
+11. Resize an image.
 
