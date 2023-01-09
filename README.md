@@ -7,7 +7,7 @@ Image-Preprocessing
 </p>
 
  <h1><center><strong><font size=100px>Required Tools</font></strong></center></h1>
-We are using Jupyter notebook and python 3 for this tutorial. For practice this tutorial first you should install 'Anaconda' from google then install 'Jupyter notebook' in Anaconda platform. After the installation of notebook install important Numpy Library. This notebook is available on Kaggle. If you like this notebook Upvote :thumbsup: me on Kaggle https://www.kaggle.com/code/haroonkhan0011/image-preprocessing. Click on the link for Download 'Anaconda'. https://www.anaconda.com/products/distribution#Downloads <br>
+We are using Jupyter notebook and python 3 for this tutorial. For practice this tutorial first you should install 'Anaconda' from google then install 'Jupyter notebook' in Anaconda platform. After the installation of notebook install some necessory Libraries. This notebook is available on Kaggle. If you like this notebook Upvote :thumbsup: me on Kaggle https://www.kaggle.com/code/haroonkhan0011/image-preprocessing. Click on the link for Download 'Anaconda'. https://www.anaconda.com/products/distribution#Downloads <br>
 
 - Anaconda
 - python 3
@@ -15,7 +15,7 @@ We are using Jupyter notebook and python 3 for this tutorial. For practice this 
 - Matplotlib Library
 - from IPython.display import Video
 
-<h1><center><strong><font size=90px>Introduction of Numpy</font></strong></center></h1>
+<h1><center><strong><font size=90px>Introduction to Image Preprocessing</font></strong></center></h1>
 The image processing is a technique of preparing (cleaning and organizing) the image to make it suitable for a building and training Machine Learning models.
  In image processing converts the image data into a form that allows machine learning algorithms to solve it.
 
