@@ -1,9 +1,3 @@
-
-We can learn all about the image preprocessing such as, capture image &amp; video from your Laptop camera, Normalization ,resize and cropping of an image.
-
-
-
-
 <h1> <p align="center">
 Image-Preprocessing
 </p></h1>
@@ -18,7 +12,7 @@ We are using Jupyter notebook and python 3 for this tutorial. For practice this 
 - Anaconda
 - python 3
 - Numpy Library
-- Matplotlib
+- Matplotlib Library
 - from IPython.display import Video
 
 <h1><center><strong><font size=90px>Introduction of Numpy</font></strong></center></h1>
